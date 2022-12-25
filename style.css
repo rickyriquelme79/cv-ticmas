@@ -1,0 +1,38 @@
+
+
+*{margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: azure;
+}
+.fotocv{
+    border-radius: 50px;
+    border: 2px solid chartreuse;
+
+}
+h1{
+    text-transform: capitalize;
+    background-color:thistle;
+    border: 2px solid chartreuse;
+    font-family: "acme";
+    font-size: 60px;
+}
+span{
+    color: rgb(248, 248, 248);
+}
+h2{
+    text-transform: capitalize;
+    background-color: thistle;
+    border: 2px solid chartreuse;
+}
+.iconos{font-size: x-small;}
+
+p{font-size:small;}
+
+.divicons{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
