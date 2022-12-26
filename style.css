@@ -1,5 +1,5 @@
 
-*{ margin: 4px; padding: 0px;}
+*{ margin: 5px; padding: 0px;}
 /*********HEADER***********************/
  header{
     border: 2px solid tomato;
@@ -36,28 +36,30 @@ main{
 }
   
 
-.diviconyp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid tomato;
-
-}
-
-section{
+    .diviconyp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: 2px solid tomato;
 
-}
-section .habilidades li{
-    margin-left: 6%;
-    
-}
+    }
+
+    section{
+            border: 2px solid tomato;
+
+    }
+    section .habilidades li{
+        margin-left: 6%;
+        
+    }
 
 /*********FOOTER********************************/
 footer{
     display: flex;
     justify-content: space-around;
+    background-color: tomato;
+    margin: 10px;
 }
 
 
