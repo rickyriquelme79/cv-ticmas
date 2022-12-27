@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="./favicon/cv.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&display=swap" rel="stylesheet">
     <title>Curriculum vitae</title>
 </head>
 <body>
@@ -16,21 +17,21 @@
     </header>
     <nav>
         <ul class="button">
-            <button><strong>Experiencia</strong></button>
-            <button><strong>Estudios   </strong></button>
-            <button><strong>Habilidades     </strong></button>         
-            <button><strong>Contacto    </strong></button>         
+            <a href="#experiencia"><button><strong>Experiencia</strong></button></a>
+            <a href="#estudios">   <button><strong>Estudios</strong></button></a>
+            <a href="#habilidades"><button><strong>Habilidades</strong></button></a>      
 
         </ul>
     </nav>
     <main>
         <p>Soy desarrollador Frontend y tengo sólidos conocimientos de HTML, CSS y JavaScript. Con estos tres lenguajes puedo crear las aplicaciones y páginas web que nesecites. También tengo otras habilidades como el manejo de frameworks como Angular, React, Bootsrtrap, Node.js, Sass y otras mas. Crear y conectar es mi compromiso.</p>
         <div class="diviconyp">
+            <h2>Informacion personal</h2>  
             <img  src=".//iconos/casa50px.png" width="20px" alt="icono casa">  Las Casuarinas 1350, Presidente Derqui, Pilar
             <img  src="./iconos/mail50px.png"width="20px" alt="icono mail"> rickyriquelme79@gmail.com
-            <img  src="./iconos/celular24px.png"width="20px" alt="icono mail">15 2418 7058
+            <img  src="./iconos/celular24px.png"width="20px" alt="icono celular">15 2418 7058
         </div>
-        <section class="experiencia">
+        <section id="experiencia">
             <h2>experiencia</h2>
             <p>Programador web
                Empresa de Tecnología Efficient Programming, Barcelona, España
@@ -40,7 +41,7 @@
                Colaboré con diferentes profesionales, como copywriters creativos y diseñadores.
                Desarrollé el sistema de facturación de 13 pymes.</p>
         </section>
-        <section class="estudios">
+        <section id="estudios">
             <h2>estudios</h2>
             <p>Grado en Ingeniería Informática
                Universidad Autónoma de Barcelona, España
@@ -52,7 +53,7 @@
         </section>
         <section>
             <h2>habilidades</h2>
-            <ul class="habilidades">
+            <ul id="habilidades">
                 <li>Trabajo en equipo.</li>
                 <li>Dominio de lenguajes de programación.</li>
                 <li>Manejo de lenguajes para gestionar bases de datos.</li>
@@ -61,13 +62,21 @@
                 <li>Resolución de conflictos.</li>
             </ul>
         </section>
+        
+        <section class="iframes">
+            <h2>Trabajos realizados</h2>
+            <h3>Desarrollo Frontend para Ticmas, Coderhouse y henry</h3>
+            <iframe src="https://www.ticmas.com/" frameborder="0"></iframe>
+            <iframe src="https://www.coderhouse.com/?gclid=Cj0KCQiAyracBhDoARIsACGFcS4Jt7L5QRrkwkr5LxfnbGdvySLpbiNkVcHQPyLP6tPHcVA8A2fIzkIaAmWvEALw_wcB&utm_medium=cpc&utm_term=javascript_coderhouse&utm_source=google_search_brand&utm_campaign=0" frameborder="0"></iframe>
+            <iframe src="https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=Brand&gclid=CjwKCAiAqaWdBhAvEiwAGAQltteRl0GnTI8ZaxAcJRN_IKXflqt9DMNMqSwC5d3v0aBi9D1p481PRBoCpCcQAvD_BwE" frameborder="0"></iframe>
+        </section>
     </main>
+    
     <footer>
-        <img src="./iconos/facebook.png" width="50px" alt="">
-        <img src="./iconos/email.png" width="50px" alt="">
-        <img src="./iconos/instagram.png" width="50px" alt="">
-        <img src="./iconos/telegrama.png" width="50px" alt="">
-        <img src="./iconos/pngwing.com.png" width="50px" alt="">
+        <a href="https://www.facebook.com/profile.php?id=100003889955279"><img src="./iconos/facebook.png" width="50px" alt="icono facebook"></a>
+        <a href="https://www.instagram.com/castillo/"><img src="./iconos/instagram.png" width="50px" alt="icono instagram"></a>
+        <a href="https://desktop.telegram.org/"><img src="./iconos/telegrama.png" width="50px" alt="icono telegram"></a>
+        <a href="https://web.whatsapp.com/"><img src="./iconos/pngwing.com.png" width="50px" alt="icono whatsapp"></a>
     </footer>
 </body>
 </html>

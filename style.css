@@ -1,5 +1,5 @@
 
-*{ margin: 5px; padding: 0px;}
+*{ margin: 10px; padding: 0px;}
 /*********HEADER***********************/
  header{
     border: 2px solid tomato;
@@ -11,10 +11,15 @@
         }
         h1 {
             text-transform: capitalize;
-            font-size: 50px;
+            font-size: 60px;
+            font-family: 'Edu QLD Beginner', cursive;
+            
         }
         h2 {
+            background-color: cornflowerblue;
             text-transform: capitalize;
+            font-style: italic;
+            text-shadow: 1px 1px white;
         }
 /*************NAV**********************/
 nav{
@@ -24,11 +29,19 @@ nav{
     .button{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
+
     }
- 
-    button{
+
+    button{       
         width: 90px;
         height: 25px;
+        font-size:small;
+        border: 1px solid white;
+        border-radius: 50px;
+        box-shadow: 1px 1px white;
+        background-color:cornflowerblue;
+        text-shadow: 0.5px 0.5px white;
     }
 
 /****************Main*********************/
@@ -49,10 +62,6 @@ main{
             border: 2px solid tomato;
 
     }
-    section .habilidades li{
-        margin-left: 6%;
-        
-    }
 
 /*********FOOTER********************************/
 footer{
@@ -60,7 +69,10 @@ footer{
     justify-content: space-around;
     background-color: tomato;
     margin: 10px;
+    flex-wrap: wrap;
+
 }
+.iframes{text-align: center;}
 
 
 
