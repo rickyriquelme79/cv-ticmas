@@ -7,24 +7,25 @@ header{
     border: 2px solid crimson;
     text-align: center;
     }
-        .fotocv{
-            border-radius: 50%;
-            border: 2px solid crimson;
+    .fotocv{
+        border-radius: 50%;
+        border: 2px solid crimson;
+    }
+    span{color:blue;}
+    h1 {
+        text-transform: capitalize;
+        font-size: 60px;
+        font-family: 'Edu QLD Beginner', cursive;
+        text-shadow: 2px 2px crimson;
         }
-        span{color: darkmagenta;}
-        h1 {
-            text-transform: capitalize;
-            font-size: 60px;
-            font-family: 'Edu QLD Beginner', cursive;
-        }
-        h2 {
-            padding: 1%;
-            color: crimson;
-            background: rgb(242,242,239);
-            background: radial-gradient(circle, rgba(242,242,239,0.7796160700608368) 0%, rgba(242,239,239,0.7796160700608368) 0%, rgba(7,116,254,1) 36%, rgba(3,0,0,0.7796160700608368) 65%);            text-transform: capitalize;
-            font-style: italic;
-            font-size: 30px;
-            text-shadow: 1px 1px white;
+    h2 {
+        padding: 1%;
+        color: crimson;
+        background: rgb(242,242,239);
+        background: radial-gradient(circle, rgba(242,242,239,0.7796160700608368) 0%, rgba(242,239,239,0.7796160700608368) 0%, rgba(7,116,254,1) 36%, rgba(3,0,0,0.7796160700608368) 65%);            text-transform: capitalize;
+        font-style: italic;
+        font-size: 30px;
+        text-shadow: 1px 1px white;
         }
 /*************NAV**********************/
 
@@ -35,39 +36,33 @@ nav ul{
      background: rgb(242,242,239);
      background: rgb(242,242,239);
      background: radial-gradient(circle, rgba(242,242,239,0.7796160700608368) 0%, rgba(242,239,239,0.7796160700608368) 0%, rgba(7,116,254,1) 36%, rgba(3,0,0,0.7796160700608368) 65%);}
-              /*******botonesNav*******/
+             
+     /*******botonesNav*******/
     
     button {
         background-color: cornflowerblue;
         border: 1px solid aliceblue;
         color: aliceblue;
-        padding: 3px;
-        
-    }
+        padding: 3px;        
+        }
 /****************Main*********************/
-main{
-}
-
 section{
      border: 2px solid crimson;
-font-size: large;
+     font-size: large;
     }
 .iconosInfoPersonal{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-        flex-wrap: wrap;
-        
-
-}
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+    }
 .caja{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    width: 270px;
-
-}
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid black;
+     width: 270px;
+    }
 /*********FOOTER********************************/
 footer{
     display: flex;
@@ -78,13 +73,15 @@ footer{
     background: radial-gradient(circle, rgba(242,242,239,0.7796160700608368) 0%, rgba(242,239,239,0.7796160700608368) 0%, rgba(7,116,254,1) 36%, rgba(3,0,0,0.7796160700608368) 65%);}
 .iframes{
     text-align: center;    
-}
+    }
 
 .iconf{
     background-color: aliceblue;
     padding: 8%;
     border-radius: 10px;
-}
+    }
+
+ /******************FIN BLOQUE1**********************************************************************************/   
 
 
 
