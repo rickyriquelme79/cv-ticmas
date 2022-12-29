@@ -7,11 +7,21 @@ header{
     border: 2px solid crimson;
     text-align: center;
     }
+
+    #horaactual {
+        font:bold;
+        color:aliceblue; 
+        background:crimson; 
+        width:70px;
+        position: absolute;
+    }
+
     .fotocv{
         border-radius: 50%;
         border: 2px solid crimson;
     }
-    span{color:blue;}
+    span{color:crimson;
+    text-shadow: 1px 1px black;}
     h1 {
         text-transform: capitalize;
         font-size: 60px;
@@ -28,13 +38,10 @@ header{
         text-shadow: 1px 1px white;
         }
 /*************NAV**********************/
-
 nav ul{
      display: flex;
      justify-content: space-evenly; 
      flex-wrap: wrap;
-     background: rgb(242,242,239);
-     background: rgb(242,242,239);
      background: radial-gradient(circle, rgba(242,242,239,0.7796160700608368) 0%, rgba(242,239,239,0.7796160700608368) 0%, rgba(7,116,254,1) 36%, rgba(3,0,0,0.7796160700608368) 65%);}
              
      /*******botonesNav*******/
@@ -43,7 +50,8 @@ nav ul{
         background-color: cornflowerblue;
         border: 1px solid aliceblue;
         color: aliceblue;
-        padding: 3px;        
+        padding: 3px;   
+        cursor: pointer;     
         }
 /****************Main*********************/
 section{

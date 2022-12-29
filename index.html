@@ -10,16 +10,19 @@
     <title>Curriculum vitae</title>
 </head>
 <body>
+    
+    
     <header>
+        <p id="horaactual"></p>
         <img src="./img/foto curriculum.jpg" class="fotocv" alt="foto_curriculum" width="130px" height="130px">
         <h1>castillo <span>fernando</span></h1>
         <h2>desarrollador frontend</h2>
     </header>
     <nav>
         <ul class="button">
-            <a href="#experiencia"><button><strong>Experiencia</strong></button></a>
-            <a href="#estudios">   <button><strong>Estudios</strong></button></a>
-            <a href="#habilidades"><button><strong>Habilidades</strong></button></a>      
+            <a href="#experiencia"><button onclick="cambiarColor()"><strong>Experiencia</strong></button></a>
+            <a href="#estudios">   <button onclick="cambiarColor()"><strong>Estudios</strong></button></a>
+            <a href="#habilidades"><button onclick="cambiarColor()"><strong>Habilidades</strong></button></a>      
         </ul>
     </nav>
     <main>
@@ -80,5 +83,8 @@
         <a href="https://desktop.telegram.org/"><img class="iconf" src="./iconos/telegrama.png" width="30px" alt="icono telegram"></a>
         <a href="https://web.whatsapp.com/"><img class="iconf" src="./iconos/pngwing.com.png" width="30px" alt="icono whatsapp"></a>
     </footer>
+    <script src="./action.js">
+
+    </script>
 </body>
 </html>
