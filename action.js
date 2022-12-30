@@ -7,12 +7,21 @@ myFunc();
 setInterval(myFunc, 1000);
 
 /**************************************/
-const experiencia =document.querySelector("#experiencia");
-const estudios =document.querySelector("#estudios");
-const habilidades =document.querySelector("#habilidades");
 
-function cambiarColor(){    
-    estudios.style.color="green";
-
+function colorRojo(){    
+    experiencia.style.background="red";
+}
+function colorVerde(){    
+    estudios.style.background="green";
+}
+function colorAzul(){    
+    habilidades.style.background="blue";
+}
+//************************************** */
+function mensaje(){
+document.getElementById('gracias').innerHTML= "gracias! Feliz año nuevo";
 }
 
+function cambiarImagenJS(){
+	document.getElementById("fotocv").src="img/sonrisa.jpeg";
+  }

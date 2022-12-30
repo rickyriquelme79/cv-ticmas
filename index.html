@@ -10,19 +10,19 @@
     <title>Curriculum vitae</title>
 </head>
 <body>
-    
-    
-    <header>
+   <header>
+         <button id="btn" onclick="cambiarImagenJS()">Finalizar visita</button>
         <p id="horaactual"></p>
-        <img src="./img/foto curriculum.jpg" class="fotocv" alt="foto_curriculum" width="130px" height="130px">
+       
+        <img src="./img/foto curriculum.jpg" id="fotocv" alt="foto_curriculum" width="130px" height="130px">
         <h1>castillo <span>fernando</span></h1>
         <h2>desarrollador frontend</h2>
     </header>
     <nav>
         <ul class="button">
-            <a href="#experiencia"><button onclick="cambiarColor()"><strong>Experiencia</strong></button></a>
-            <a href="#estudios">   <button onclick="cambiarColor()"><strong>Estudios</strong></button></a>
-            <a href="#habilidades"><button onclick="cambiarColor()"><strong>Habilidades</strong></button></a>      
+            <a href="#experiencia"><button class="btn1" onClick=colorRojo()><strong>Experiencia</strong></button></a>
+            <a href="#estudios"><button class="btn1" onClick=colorVerde()><strong>Estudios</strong></button></a>
+            <a href="#habilidades"><button  class="btn1"onClick=colorAzul()><strong>Habilidades</strong></button></a>      
         </ul>
     </nav>
     <main>

@@ -1,6 +1,6 @@
 
 *{ margin: 10px; padding: 0px;}
-body{background-color:azure;
+body{background-color:rgb(160, 236, 236);
 }
 /*********HEADER***********************/
 header{
@@ -16,7 +16,7 @@ header{
         position: absolute;
     }
 
-    .fotocv{
+    #fotocv{
         border-radius: 50%;
         border: 2px solid crimson;
     }
@@ -37,6 +37,15 @@ header{
         font-size: 30px;
         text-shadow: 1px 1px white;
         }
+        #gracias{
+            max-width: 30%;
+            padding: 2%;
+            border-radius: 10px;
+            position: absolute;
+            right: 20%;
+            top: 8px;
+            
+        }
 /*************NAV**********************/
 nav ul{
      display: flex;
@@ -46,13 +55,55 @@ nav ul{
              
      /*******botonesNav*******/
     
-    button {
-        background-color: cornflowerblue;
-        border: 1px solid aliceblue;
-        color: aliceblue;
-        padding: 3px;   
-        cursor: pointer;     
-        }
+    
+        .btn1 {
+            background:crimson; 
+            color:aliceblue; 
+            border: 2px solid aliceblue;
+            padding: 10px 10px;
+            border-radius: 3px; 
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            display: inline-block;
+            cursor: pointer;
+          }
+          .btn1:hover {
+            color: #fff; 
+          }
+          .btn1::after {
+            content: "";
+            background:green;
+            position: absolute;
+            z-index: -1;
+            padding: 16px 20px;
+            display: block;
+            left: 0;
+            right: 0;
+            top: -100%;
+            bottom: 100%;
+            -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+          }
+          .btn1:hover::after {
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+          }   
+
+          #btn{
+            background-color: crimson;
+            border-radius: 50px;
+            border: 2px groove rgb(246, 246, 247);
+            position: absolute;
+            right: 50px;
+            padding: 1%;
+            color: #fff;
+            cursor: pointer;
+          }
 /****************Main*********************/
 section{
      border: 2px solid crimson;
