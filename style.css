@@ -1,6 +1,7 @@
 
 *{ margin: 10px; padding: 0px;}
-body{background-color:rgb(160, 236, 236);
+body{
+    background-color:aliceblue;
 }
 /*********HEADER***********************/
 header{
@@ -37,7 +38,7 @@ header{
         font-size: 30px;
         text-shadow: 1px 1px white;
         }
-        #gracias{
+    #gracias{
             max-width: 30%;
             padding: 2%;
             border-radius: 10px;
@@ -45,6 +46,11 @@ header{
             right: 20%;
             top: 8px;
             
+        }
+        #saludo{
+            color:crimson;
+            text-shadow: 1px 1px aliceblue;
+            font-size: x-large;
         }
 /*************NAV**********************/
 nav ul{
@@ -56,7 +62,7 @@ nav ul{
      /*******botonesNav*******/
     
     
-        .btn1 {
+        .btn {
             background:crimson; 
             color:aliceblue; 
             border: 2px solid aliceblue;
@@ -68,12 +74,12 @@ nav ul{
             display: inline-block;
             cursor: pointer;
           }
-          .btn1:hover {
+          .btn:hover {
             color: #fff; 
           }
-          .btn1::after {
+          .btn::after {
             content: "";
-            background:green;
+            background:rgb(30, 88, 188);
             position: absolute;
             z-index: -1;
             padding: 16px 20px;
@@ -85,7 +91,7 @@ nav ul{
             -webkit-transition: all 0.35s;
             transition: all 0.35s;
           }
-          .btn1:hover::after {
+          .btn:hover::after {
             left: 0;
             right: 0;
             top: 0;
@@ -94,17 +100,19 @@ nav ul{
             transition: all 0.35s;
           }   
 
-          #btn{
-            background-color: crimson;
-            border-radius: 50px;
-            border: 2px groove rgb(246, 246, 247);
+          #btnx{
+            background-color:crimson;
             position: absolute;
-            right: 50px;
-            padding: 1%;
+            right: 35px;
+            padding: 0;
             color: #fff;
             cursor: pointer;
+            border: 2px solid crimson;
+            width: 100px;
+            font-size: 14px;
           }
 /****************Main*********************/
+
 section{
      border: 2px solid crimson;
      font-size: large;
